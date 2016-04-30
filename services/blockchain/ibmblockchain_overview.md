@@ -53,7 +53,7 @@ The following terms are instrumental in gaining a holistic understanding of bloc
 
 **Transaction**: A request to the blockchain to execute a function on the ledger. The function is implemented by a chaincode.  `Init`, `Invoke`, and `Query` are the three functions that implement chaincode.
 
-+**Transactor**: A network entity, such as a client application, that issues transactions.
+**Transactor**: A network entity, such as a client application, that issues transactions.
 
 **Ledger**: A sequence of cryptographically-linked blocks, containing transactions and the current world state.  In addition to data from previous transactions, the ledger (blockchain) also contains the data for currently-running chaincode applications.
 
