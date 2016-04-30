@@ -77,7 +77,7 @@ Figure 2.
 
 Figure 3 represents the architecture of the core components in the blockchain fabric. Membership Services, Blockchain Services and Chaincode Services are logical structures, not a physical partitioning of components into separate processes, address spaces or virtual machines.
 
-![Reference Architecture](images/refarch.png "Reference Architecture")
+![Reference Architecture](images/refarch.png "Reference Architecture")<br>
 Figure 3.
 
 **Membership services**: Membership services manage identity on the network. In a non-permissioned blockchain, participation does not require authorization, and all nodes can equally submit transactions and attempt to accumulate them into acceptable blocks; that is, there is no distinction of roles. Membership services combine elements of Public Key Infrastructure (PKI) and decentralization (consensus) to transform a non-permissioned blockchain into a permissioned blockchain.
